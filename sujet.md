@@ -8,4 +8,4 @@ Each programming exercise comes with a template project that you can use. Those 
 2. [Detecting test smells with PMD](exercises/pmd-test-smells.md)
 3. [Balanced strings](exercises/balanced-strings.md)
 4. [Test the Date class](exercises/test-date-class.md)
-6. [Mocks to the rescue](exercises/mocks.md)
+5. [Mocks to the rescue](exercises/mocks.md)
