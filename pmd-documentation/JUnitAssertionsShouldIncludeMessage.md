@@ -1,16 +1,16 @@
 
 # JUnitAssertionsShouldIncludeMessage
 
-*Usage:* 
+*Usage:*
 `pmd check -d <source code folder> -R category/java/bestpractices.xml/JUnitAssertionsShouldIncludeMessage -format <output format>`
 
 *Description:*
 
 JUnit assertions should include an informative message - i.e., use the three-argument version of
 assertEquals(), not the two-argument version.
-        
 
 *Example:*
+
 ```java
 
 

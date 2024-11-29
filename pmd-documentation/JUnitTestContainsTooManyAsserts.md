@@ -1,7 +1,7 @@
 
 # JUnitTestContainsTooManyAsserts
 
-*Usage:* 
+*Usage:*
 `pmd check -d <source code folder> -R category/java/bestpractices.xml/JUnitTestContainsTooManyAsserts -format <output format>`
 
 *Description:*
@@ -11,12 +11,10 @@ it is harder to verify correctness.  Consider breaking the test scenario into mu
 Customize the maximum number of assertions used by this Rule to suit your needs.
 
 This rule checks for JUnit4, JUnit5 and TestNG Tests, as well as methods starting with "test".
-        
 
 *Example:*
+
 ```java
-
-
 public class MyTestCase extends TestCase {
     // Ok
     public void testMyCaseWithOneAssert() {
@@ -30,7 +28,5 @@ public class MyTestCase extends TestCase {
         assertFalse("myVar should be false", myVar);
         assertEquals("should equals false", false, myVar);
     }
-}
-
-        
+}        
 ```

@@ -35,12 +35,11 @@ The constructor throws an exception if the three given integers do not form a va
 * `date.compareTo(other)` returns a positive integer if `date` is posterior to `other`
 * `date.compareTo(other)` returns a negative integer if `date` is anterior to `other`
 * `date.compareTo(other)` returns `0` if `date` and `other` represent the same date.
-* the method throws a `NullPointerException` if `other` is `null` 
+* the method throws a `NullPointerException` if `other` is `null`
 
 Design and implement a test suite for this `Date` class.
-You may use the test cases discussed in classes as a starting point. 
+You may use the test cases discussed in classes as a starting point.
 Also, feel free to add any extra method you may need to the `Date` class.
-
 
 Use the following steps to design the test suite:
 
@@ -52,4 +51,3 @@ Use the following steps to design the test suite:
 Use the project in [tp3-date](../code/tp3-date) to complete this exercise.
 
 ## Answer
-

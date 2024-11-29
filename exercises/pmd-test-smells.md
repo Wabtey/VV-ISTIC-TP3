@@ -14,4 +14,3 @@ Discuss the test smell you found with the help of PMD and propose here an improv
 Include the improved test code in this file.
 
 ## Answer
-

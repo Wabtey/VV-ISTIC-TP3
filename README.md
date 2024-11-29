@@ -9,7 +9,7 @@ You can access the exercises [here](sujet.md)
 
 ## Lab implementation
 
-You can realize this lab by group of 1 or 2. 
+You can realize this lab by group of 1 or 2.
 
 ## Deliverable and evaluation
 
