@@ -1,8 +1,8 @@
 
-# JUnitAssertionsShouldIncludeMessage
+# UnitTestAssertionsShouldIncludeMessage
 
 *Usage:*
-`pmd check -d <source code folder> -R category/java/bestpractices.xml/JUnitAssertionsShouldIncludeMessage -format <output format>`
+`pmd check -d <source code folder> -R category/java/bestpractices.xml/UnitTestAssertionsShouldIncludeMessage -format <output format>`
 
 *Description:*
 
@@ -12,8 +12,6 @@ assertEquals(), not the two-argument version.
 *Example:*
 
 ```java
-
-
 public class Foo extends TestCase {
     public void testSomething() {
         assertEquals("foo", "bar");
@@ -22,6 +20,4 @@ public class Foo extends TestCase {
         // instead
     }
 }
-
-        
 ```

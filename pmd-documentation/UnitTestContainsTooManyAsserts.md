@@ -1,8 +1,8 @@
 
-# JUnitTestContainsTooManyAsserts
+# UnitTestContainsTooManyAsserts
 
 *Usage:*
-`pmd check -d <source code folder> -R category/java/bestpractices.xml/JUnitTestContainsTooManyAsserts -format <output format>`
+`pmd check -d <source code folder> -R category/java/bestpractices.xml/UnitTestContainsTooManyAsserts -format <output format>`
 
 *Description:*
 
@@ -28,5 +28,5 @@ public class MyTestCase extends TestCase {
         assertFalse("myVar should be false", myVar);
         assertEquals("should equals false", false, myVar);
     }
-}        
+}   
 ```
